@@ -484,7 +484,7 @@ pip install -U pyseekdb
 ```
 
 > 说明：pyseekdb 1.1.0+：原生支持 macOS 15 及以上，不仅限于 Linux（glibc >= 2.28）。
->
+> 说明：windows需安装docker，基于服务器模式。尝试命令行窗口cd到当前文件夹，set SEEKDB_MODE=server，set SEEKDB_DATABASE=d1_demo，set SEEKDB_ALLOW_DESTRUCTIVE=1
 
 这里也推荐大家通过使用 AI Agent 来代替手动安装 pyseekdb。（如果您还没有使用过类 AI Agent 的产品，推荐安装 [Qwen Code](https://qwenlm.github.io/qwen-code-docs/zh/users/overview/) ，并用 Qwen Code 来安装 pyseekdb）
 
